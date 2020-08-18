@@ -1,0 +1,285 @@
+html, body {
+    width: 100%;
+    margin: 0;
+}
+* {
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: Open Sans regular;
+    src: url('fonts/open-sans/OpenSans-Regular.ttf');
+}
+@font-face {
+    font-family: Open Sans semibold;
+    src: url('fonts/open-sans/OpenSans-SemiBold.ttf');
+}
+@font-face {
+    font-family: Open Sans Bold;
+    src: url('fonts/open-sans/OpenSans-Bold.ttf');
+}
+@font-face {
+    font-family: Roboto semibold;
+    src: url('fonts/roboto/Roboto-Regular.ttf');
+}
+body {
+    background: #F5F5F5;
+}
+nav {
+    width: 100%;
+    margin: 0;
+    position: relative;
+    background: #21786B;
+    color: #FFFFFF;
+    font-family: 'Open Sans regular', sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+}
+nav .siteName {
+    font-family: 'Open Sans semibold', sans-serif;
+    font-size: 27px;
+    margin-right: 10%;
+}
+nav .nav-links {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+nav .nav-links a {
+    margin-right: 5%;
+    font-size: 16px;
+    cursor: pointer;
+}
+.nav-extension {
+    background: #FFFFFF;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.crypto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.landing-page {
+    width: 100%;
+    margin: 3.4% 0;
+}
+.converter {
+    margin: 0 8%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.calc {
+    width: 435px;
+    background: #FFFFFF;
+    padding: 1% 3% 1% 2%;
+}
+.calc header {
+    padding: 20px 10px 5px 30px;
+    color: #FFFFFF;
+    font-family: 'Roboto semibold', sans-serif;
+    font-size: 28px;
+    background: #009688;
+}
+.calc-cnt {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.inputs {
+    margin-right: 15px;
+    width: 280px;
+}
+.inputs input {
+    display: inline-block;
+    width: 100%;
+    height: 48px;
+    margin: 5% 0;
+    background: rgba(0, 0, 0, 0.03);
+    border: none;
+    border-radius: 5px;
+}
+.opt {
+    width: 100%;
+    margin: 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.options {
+    position: absolute;
+    margin-left: 80%;
+    cursor: pointer;
+}
+.text {
+    width: 440px;
+    font-family: 'Open Sans Regular', sans-serif;
+}
+.text header {
+    font-size: 20px;
+}
+.text .line {
+    font-size: 15px;
+}
+.tagline {
+    font-size: 40px;
+    color: #009688;
+    margin: 2% 0;
+}
+main .heading {
+    width: 100%;
+    margin: 2.5% 0 0 0;
+    padding: 2%;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    font-size: 40px;
+    font-family: 'Roboto Regular', sans-serif;
+}
+.heading div {
+    margin: 0 4%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.heading div img {
+    margin: 0 4%;
+}
+.uses {
+    width: 100%;
+    margin: 0;
+    padding: 3% 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.uses > div {
+    width: 230px;
+    display: flex;
+    margin: 0 5.5%;
+    flex-direction: column;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Open Sans Regular', sans-serif;
+}
+.uses > div img {
+    margin-bottom: 5%;
+}
+.section {
+    background: #F5F5F5;
+    padding: 4.5% 8%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    color: #333333;
+}
+.section .text {
+    width: 37%;
+} 
+.section .text span {
+    display: block;
+    font-size: 1.16vw;
+    width: 90%;
+    display: flex;
+    align-items: center;
+}
+.section > img {
+    width: 49%;
+    height: auto;
+}
+.section header {
+    font-family: 'Open Sans Bold', sans-serif;
+    font-size: 2vw;
+    margin-bottom: 14%;
+}
+.section.three .text span.rem {
+    margin-top: 20%;
+}
+.section.three .text, .section.four .text {
+    margin-top: 3%;
+}
+.section.four {
+    padding-top: 2%;
+}
+.section.four span {
+    width: 350px;
+    margin: 2% 0;
+}
+.section.four span > img {
+    margin-right: 10px;
+}
+.section.two, .section.five  {
+    background: #FFFFFF;
+}
+.section.five {
+    align-items: center;
+    margin-bottom: 0;
+}
+.remarks {
+    width: 100%;
+    height: 350px;
+    margin: 0;
+    padding: 2.5% 8%;
+    background: #FFFFFF;
+    padding-bottom: 28%;
+}
+.remarks header {
+    width: 50%;
+    font-family: 'Open Sans Bold', sans-serif;
+    font-size: 2vw;
+    color: #333333;
+    margin: 0 25% -4% 25%;
+    text-align: center;
+}
+.flexy {
+    width: 88%;
+    margin: 0 6%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.flexy div.cnt {
+    width: 29%;
+    margin-top: -4%;
+    color: #165249;
+}
+.flexy div.cnt h2 {
+    font-family: 'Open Sans Regular', sans-serif;
+    font-size: 1.4vw;
+    text-align: center;
+}
+.flexy div.cnt q {
+    font-family: 'Open Sans Regular', sans-serif;
+    font-size: 1.25vw;
+    display: block;
+    text-align: center;
+}
+.flexy div.cnt cite {
+    font-family: 'Open Sans Regular', sans-serif;
+    font-size: 1.25vw;
+    margin-right: 1%;
+    float: right;
+    display: block;
+    text-align: right;
+}
+.hr {
+    height: 290px;
+    border: 1px solid rgba(0, 0, 0, 0.03);
+}
